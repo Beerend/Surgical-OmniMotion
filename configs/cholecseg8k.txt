@@ -1,0 +1,24 @@
+expname = video17_01563
+data_dir = /home/geratsbga1/CholecSeg8k/video17/video17_01563/_omnimotion
+save_dir = /home/geratsbga1/Surgical-OmniMotion/omnimotion/out
+
+# training
+num_iters = 20000
+num_workers = 4
+num_pairs = 8
+num_pts = 256
+lr_feature = 1e-3
+lr_deform = 1e-4
+lr_color = 3e-4
+num_samples_ray = 32
+min_depth = 0
+max_depth = 1
+
+# logging
+i_print = 100
+i_img = 20000
+i_weight = 20000
+i_cache = 20000
+
+# inference
+vis_occlusion = True
